@@ -1,0 +1,149 @@
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.conteudo-produto {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.conteudo-contato {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.conteudo-produto-layout h2 {
+  margin-top: 20px;
+}
+
+.conteudo-produto-titulo {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.conteudo-produto-principal {
+  display: grid;
+  justify-content: end;
+  align-content: end;
+}
+.conteudo-produto-descricao {
+  text-align: left;
+  margin: 0px;
+}
+.conteudo-produto-valor {
+  font-weight: bold;
+  color: #ff8c00;
+}
+.conteudo-detalhe {
+  padding: 40px;
+  display: grid;
+  text-align: right;
+  justify-content: center;
+  justify-items: end;
+  position: relative;
+  background-color: white;
+  gap: 20px;
+}
+
+.conteudo-formulario {
+  display: grid;
+  gap: 20px;
+}
+.conteudo-formulario button {
+  padding: 20px;
+}
+.conteudo-formulario p {
+  margin: 0px;
+}
+
+.menu {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-items: center;
+}
+
+.menu a {
+  color: #111;
+  font-size: 20px;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.botao {
+  background: #e21;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.vantagens {
+  padding: 40px;
+  background-color: white;
+}
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+  margin-top: 0px;
+}
+
+.vantagens-titulo {
+  font-size: 60px;
+  text-align: right;
+  align-self: center;
+  color: rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.rodape {
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+a {
+  margin: 0px;
+}
